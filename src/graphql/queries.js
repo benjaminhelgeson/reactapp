@@ -2,29 +2,29 @@
 // this is an auto generated file. This will be overwritten
 
 export const getNote = /* GraphQL */ `
-  query GetTodo($id: ID!) {
-    getTodo(id: $id) {
+  query GetNote($id: ID!) {
+    getNote(id: $id) {
       id
       name
       description
-      meaning
+      image
       createdAt
       updatedAt
     }
   }
 `;
 export const listNotes = /* GraphQL */ `
-  query ListTodos(
-    $filter: ModelTodoFilterInput
+  query ListNotes(
+    $filter: ModelNoteFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    listTodos(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    listNotes(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
         name
         description
-        meaning
+        image
         createdAt
         updatedAt
       }
