@@ -1,6 +1,6 @@
 {
   "auth": {
-    "reactappb10609e3": {
+    "reactappd989a674": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
